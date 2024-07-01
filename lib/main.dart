@@ -1,6 +1,6 @@
 import 'package:fitness_app/utils/base_constants/base_colors.dart';
 import 'package:fitness_app/utils/base_constants/base_strings.dart';
-import 'package:fitness_app/view/ui/Dashboard/dashboard_screen.dart';
+import 'package:fitness_app/view/ui/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                   foregroundColor: Colors.transparent,
                   iconTheme: IconThemeData(color: BaseColors.whiteColor),
                   elevation: 0)),
-          home: DashboardScreen()),
+          home: OnBoardingScreen()),
     );
   }
 }
